@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #CDCBD0;
+}
+
+.counter-container {
+  background-color: #a4d3a4a6;
+  margin: 100px auto;
+  max-width: 300px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 4;
+  grid-template-rows: 4;
+  border: 5px solid #a4d3a4a6;
+  padding: 50px;
+}
+
+.one {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.two {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.three {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.four {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+#counter-text {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 120px;
+  height: 100px;
+  text-align: center;
+  font-size: 4rem;
+  margin: auto;
+  margin-right: 10px;
+  background-color: #CDCBD0;
+  padding: 10px;
+  border: 3px solid #efefef33;
+  border-radius: 10px;
+}
+
+.counter-btn {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border-radius: 50%;
+  color: black;
+}
+
+.add {
+  border: 3px solid #5BA847;
+}
+
+.add:hover {
+  background-color: #5BA847;
+  color: white;
+}
+
+.minus {
+  border: 3px solid #DD4545;
+}
+
+.minus:hover {
+  background-color: #DD4545;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
